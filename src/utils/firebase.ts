@@ -1,6 +1,6 @@
 import 'firebase/auth'
-import 'firebase/firestore'
 
+// import 'firebase/firestore'
 import firebase from 'firebase/app'
 
 const config = {
@@ -13,9 +13,9 @@ if (!firebase.apps.length) {
 }
 
 const auth = firebase.auth()
-const db = firebase.firestore()
+// const db = firebase.firestore()
 
-export { auth, db }
+export { auth }
 
 // eslint-disable-next-line import/no-default-export
 export default firebase
